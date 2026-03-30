@@ -412,15 +412,15 @@ github.com/go-git/gcfg
 github.com/go-git/gcfg/scanner
 github.com/go-git/gcfg/token
 github.com/go-git/gcfg/types
-# github.com/go-git/go-billy/v5 v5.6.2
-## explicit; go 1.21
+# github.com/go-git/go-billy/v5 v5.8.0
+## explicit; go 1.24.0
 github.com/go-git/go-billy/v5
 github.com/go-git/go-billy/v5/helper/chroot
 github.com/go-git/go-billy/v5/helper/polyfill
 github.com/go-git/go-billy/v5/memfs
 github.com/go-git/go-billy/v5/osfs
 github.com/go-git/go-billy/v5/util
-# github.com/go-git/go-git/v5 v5.16.5
+# github.com/go-git/go-git/v5 v5.17.1
 ## explicit; go 1.24.0
 github.com/go-git/go-git/v5
 github.com/go-git/go-git/v5/config
@@ -656,18 +656,6 @@ github.com/hashicorp/go-retryablehttp
 # github.com/hashicorp/golang-lru v1.0.2
 ## explicit; go 1.12
 github.com/hashicorp/golang-lru/simplelru
-# github.com/hashicorp/hcl v1.0.0
-## explicit
-github.com/hashicorp/hcl
-github.com/hashicorp/hcl/hcl/ast
-github.com/hashicorp/hcl/hcl/parser
-github.com/hashicorp/hcl/hcl/printer
-github.com/hashicorp/hcl/hcl/scanner
-github.com/hashicorp/hcl/hcl/strconv
-github.com/hashicorp/hcl/hcl/token
-github.com/hashicorp/hcl/json/parser
-github.com/hashicorp/hcl/json/scanner
-github.com/hashicorp/hcl/json/token
 # github.com/imdario/mergo v0.3.13
 ## explicit; go 1.13
 github.com/imdario/mergo
@@ -720,9 +708,6 @@ github.com/kevinburke/ssh_config
 ## explicit; go 1.11
 github.com/lnquy/cron
 github.com/lnquy/cron/i18n
-# github.com/magiconair/properties v1.8.5
-## explicit; go 1.13
-github.com/magiconair/properties
 # github.com/mailru/easyjson v0.7.7
 ## explicit; go 1.12
 github.com/mailru/easyjson/buffer
@@ -732,9 +717,6 @@ github.com/mailru/easyjson/jwriter
 ## explicit
 github.com/mattn/go-zglob
 github.com/mattn/go-zglob/fastwalk
-# github.com/mitchellh/mapstructure v1.5.0
-## explicit; go 1.14
-github.com/mitchellh/mapstructure
 # github.com/moby/spdystream v0.2.0
 ## explicit; go 1.13
 github.com/moby/spdystream
@@ -785,9 +767,6 @@ github.com/onsi/gomega/matchers/support/goraph/edge
 github.com/onsi/gomega/matchers/support/goraph/node
 github.com/onsi/gomega/matchers/support/goraph/util
 github.com/onsi/gomega/types
-# github.com/pelletier/go-toml v1.9.3
-## explicit; go 1.12
-github.com/pelletier/go-toml
 # github.com/peterbourgon/diskv v2.0.1+incompatible
 ## explicit
 github.com/peterbourgon/diskv
@@ -847,26 +826,14 @@ github.com/sirupsen/logrus
 # github.com/skeema/knownhosts v1.3.1
 ## explicit; go 1.22
 github.com/skeema/knownhosts
-# github.com/spf13/afero v1.9.2
-## explicit; go 1.16
-github.com/spf13/afero
-github.com/spf13/afero/internal/common
-github.com/spf13/afero/mem
-# github.com/spf13/cast v1.3.1
-## explicit
-github.com/spf13/cast
+# github.com/smarty/assertions v1.15.1
+## explicit; go 1.18
 # github.com/spf13/cobra v1.7.0
 ## explicit; go 1.15
 github.com/spf13/cobra
-# github.com/spf13/jwalterweatherman v1.1.0
-## explicit
-github.com/spf13/jwalterweatherman
 # github.com/spf13/pflag v1.0.5
 ## explicit; go 1.12
 github.com/spf13/pflag
-# github.com/spf13/viper v1.8.1
-## explicit; go 1.12
-github.com/spf13/viper
 # github.com/stoewer/go-strcase v1.2.0
 ## explicit; go 1.11
 github.com/stoewer/go-strcase
@@ -878,9 +845,6 @@ github.com/stretchr/objx
 github.com/stretchr/testify/assert
 github.com/stretchr/testify/assert/yaml
 github.com/stretchr/testify/mock
-# github.com/subosito/gotenv v1.2.0
-## explicit
-github.com/subosito/gotenv
 # github.com/tektoncd/pipeline v0.61.0
 ## explicit; go 1.22
 github.com/tektoncd/pipeline/internal/artifactref
@@ -1650,9 +1614,6 @@ knative.dev/pkg/metrics
 knative.dev/pkg/metrics/metricskey
 knative.dev/pkg/tracker
 knative.dev/pkg/webhook/resourcesemantics
-# sigs.k8s.io/boskos v0.0.0-20241205030959-9f79a9e4406a
-## explicit; go 1.22.3
-sigs.k8s.io/boskos/common
 # sigs.k8s.io/controller-runtime v0.18.5
 ## explicit; go 1.22.0
 sigs.k8s.io/controller-runtime/pkg/cache
